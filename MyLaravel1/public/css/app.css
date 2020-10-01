@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+body .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: pink;
+}
+
+body .container header,
+body .container footer {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body .container h1 {
+  margin: 20px auto;
+}
+
+body .container .ul-container {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+body .container .links {
+  margin: 20px auto;
+}
+
+body .container .links a {
+  color: #000;
+}
+
+body .container .links a:hover {
+  color: purple;
+}
+
