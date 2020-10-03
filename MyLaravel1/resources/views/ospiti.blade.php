@@ -9,6 +9,6 @@
     </ul>
   </div>
   <div class="links">
-    <a href="{{route('index')}}">Go to Paganti</a>
+    <a href="{{route('paganti-index')}}">Go to Paganti</a>
   </div>
 @endsection

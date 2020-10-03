@@ -3,18 +3,23 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+  & a {
+    color: #000;
+  }
 }
 
 body {
   width: 100%;
   height: 100vh;
+  text-align: center;
 
   .container {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background: pink;
 
@@ -30,16 +35,21 @@ body {
       margin: 20px auto;
     }
 
+    form .form-group {
+      text-align: left;
+    }
+
     .ul-container {
       height: 200px;
       overflow-y: scroll;
+      text-align: left;
     }
 
     .links {
       margin: 20px auto;
 
       a {
-        // text-decoration: none;
+        display: block;
         color: #000;
 
         &:hover {

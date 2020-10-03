@@ -9,6 +9,6 @@
     </ul>
   </div>
   <div class="links">
-    <a href="{{route('indexOsp')}}">Go to Ospiti</a>
+    <a href="{{route('ospiti-index')}}">Go to Ospiti</a>
   </div>
 @endsection

@@ -4,9 +4,14 @@
   box-sizing: border-box;
 }
 
+* a {
+  color: #000;
+}
+
 body {
   width: 100%;
   height: 100vh;
+  text-align: center;
 }
 
 body .container {
@@ -14,7 +19,7 @@ body .container {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background: pink;
 }
@@ -31,9 +36,14 @@ body .container h1 {
   margin: 20px auto;
 }
 
+body .container form .form-group {
+  text-align: left;
+}
+
 body .container .ul-container {
   height: 200px;
   overflow-y: scroll;
+  text-align: left;
 }
 
 body .container .links {
@@ -41,6 +51,7 @@ body .container .links {
 }
 
 body .container .links a {
+  display: block;
   color: #000;
 }
 
