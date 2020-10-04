@@ -19,8 +19,8 @@ class CreatePostsTable extends Migration
             $table -> string('title', 30);
             $table -> string('text', 200);
             $table -> string('category', 30) -> nullable();
-            $table -> integer('like') -> default(0);
-            $table -> integer('dislike') -> default(0);
+            $table -> unsignedBigInteger('like') -> default(0);
+            $table -> unsignedBigInteger('dislike') -> default(0);
 
             $table->timestamps();
         });
